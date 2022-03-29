@@ -1,0 +1,144 @@
+body {
+    /* background-color: White; */
+    color: blue;
+    font-family: 'Inter',sans-serif;
+    padding-top: 10%;
+    padding-left: 40%;
+
+}
+
+/* p {
+    color: skyblue;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif
+} */
+
+.card-comp-container {
+    width: 317px;
+    /* border: 2px solid black; */
+    background: #23252C
+}
+.info-container--pic {
+    margin: 0;
+    width: 100%;
+    /* height: auto; */
+    aspect-ratio: 1/1;
+    border-radius: 10px 10px 10px 10px;
+    /* object-fit: cover; */
+}
+.info-container--name {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    /* border: 1px solid green; */
+}
+.info-container--profession {
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    /* border: 1px solid green; */
+}
+.info-container--websitetext {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* width: 100%; */
+    /* identical to box height, or 15px */
+    text-align: center;
+    color: #F5F5F5;
+    /* border: 1px solid green; */
+}
+.contact-buttons {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green; */
+    margin: 5% 10% 8% 10%;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+}
+.contact-buttons > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    /* border: 1px solid green; */
+}
+.contact-buttons--emailbutton,.contact-buttons--linkedinbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+.contact-buttons--emailbutton > h3, .contact-buttons--linkedinbutton > h3 {
+    width: 36px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+.contact-buttons--linkedinbutton > h3 {
+    color: #FFFFFF;
+}
+
+.contact-buttons--linkedinbutton {
+    background: #5093E2;
+}
+.about, .interests {
+    margin: 10% 10% 8% 10%;
+}
+.about > h2, .interests > h2 {
+    /* position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 535px; */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* border: 1px solid green; */
+    color: #F5F5F5;
+}
+.about > p, .interests > p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;  
+    color: #DCDCDC;
+    /* border: 1px solid green; */
+}
+.footer {
+    /* border: 1px solid green; */
+    align-items: center;
+}
+
+.footer--iconlist {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    /* border: 1px dotted green; */
+    /* align-items: left; */
+    margin: 10% 10% 8% 10%;
+}
+
+.footer--icon {
+    background: #918E9B;
+    width: 25px;
+    height: 25px;
+}
+
+
